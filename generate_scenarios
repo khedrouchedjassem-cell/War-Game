@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Wargame Scenario Generator Launcher
+# This script provides easy access to the scenario generation tools
+
+# Get the script directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Execute the main scenario generator script
+exec "$SCRIPT_DIR/scenario_tools/generate_scenarios.sh" "$@"

@@ -1,0 +1,60 @@
+# Example configuration file for Wargame Simulation
+# Copy this file to config.ini and modify as needed
+
+[Simulation]
+# Default hex size in meters
+hex_size = 30.0
+
+# Turn duration in seconds for real-time mode
+turn_duration = 30.0
+
+# Random seed for reproducible results (0 = random)
+random_seed = 0
+
+[Display]
+# Default display mode (terrain, elevation, movement_cost, cover, los_blocking, control)
+default_display_mode = terrain
+
+# Show grid lines
+show_grid = true
+
+# Show hex coordinates
+show_coordinates = false
+
+# Enable antialiasing
+antialiasing = true
+
+[Performance]
+# Maximum cached LOS calculations
+los_cache_size = 10000
+
+# Animation frame rate (FPS)
+animation_fps = 20
+
+# Maximum pathfinding iterations
+max_pathfinding_iterations = 10000
+
+[Units]
+# Default unit properties
+default_infantry_movement = 10.0
+default_vehicle_movement = 15.0
+default_sensor_range = 500.0
+
+[Terrain]
+# Terrain analysis parameters
+forest_height = 15.0
+building_height = 10.0
+max_slope_for_vehicles = 45.0
+
+[UI]
+# Window geometry
+window_width = 1200
+window_height = 800
+
+# Panel sizes
+map_view_ratio = 0.75
+side_panel_width = 300
+
+# Font settings
+default_font_family = Arial
+default_font_size = 9

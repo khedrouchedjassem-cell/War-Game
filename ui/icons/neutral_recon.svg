@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .unit-bg { fill: #808080; stroke: #000; stroke-width: 2; }
+            .unit-symbol { fill: #000; stroke: none; font-family: Arial, sans-serif; font-weight: bold; text-anchor: middle; dominant-baseline: central; }
+        </style>
+    </defs>
+    
+    <polygon class="unit-bg" points="32,8 56,32 32,56 8,32"/>
+    <text class="unit-symbol" x="32" y="32" font-size="16">R</text>
+    
+</svg>

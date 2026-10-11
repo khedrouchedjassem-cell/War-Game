@@ -1,0 +1,17 @@
+/data
+/venv
+/logs
+/scenario_tools/*/*.json
+/logs/*.log
+*.log
+*/*.log
+*.pyc
+__pycache__/
+*/__pycache__/
+.DS_Store
+.env
+.idea/
+.vscode/
+*.sqlite3
+*.ini
+/tests/

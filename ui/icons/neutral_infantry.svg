@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .unit-bg { fill: #808080; stroke: #000; stroke-width: 2; }
+            .unit-symbol { fill: #000; stroke: none; font-family: Arial, sans-serif; font-weight: bold; text-anchor: middle; dominant-baseline: central; }
+        </style>
+    </defs>
+    
+    <rect class="unit-bg" x="8" y="16" width="48" height="32" rx="4"/>
+    <line x1="16" y1="24" x2="48" y2="40" stroke="#000" stroke-width="3"/>
+    <line x1="48" y1="24" x2="16" y2="40" stroke="#000" stroke-width="3"/>
+    
+</svg>
